@@ -1,0 +1,19 @@
+# compiled output
+/dist
+/node_modules
+*.js
+*.d.ts
+*.js.map
+*.tsbuildinfo
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/typescript.code-snippets
+
+# Environments
+.env
+cdk.out

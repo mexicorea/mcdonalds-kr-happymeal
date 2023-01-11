@@ -8,20 +8,25 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "local": "sam local invoke -t ./cdk.out/McdonaldsKrHappymealStack.template.json mcdonalds-kr-happymeal"
   },
   "devDependencies": {
     "@types/jest": "^26.0.10",
     "@types/node": "10.17.27",
+    "@types/source-map-support": "^0.5.6",
+    "aws-cdk": "2.15.0",
     "jest": "^26.4.2",
     "ts-jest": "^26.2.0",
-    "aws-cdk": "2.15.0",
     "ts-node": "^9.0.0",
     "typescript": "~3.9.7"
   },
   "dependencies": {
     "aws-cdk-lib": "2.15.0",
+    "axios": "^1.2.2",
+    "cheerio": "^1.0.0-rc.12",
     "constructs": "^10.0.0",
+    "dotenv": "^16.0.3",
     "source-map-support": "^0.5.16"
   }
 }
