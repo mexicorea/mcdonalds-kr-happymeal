@@ -1,8 +1,6 @@
-# Welcome to your CDK TypeScript project
+# Welcome to my Mcdonalds KR Happymeal project
 
-This is a blank project for TypeScript development with CDK.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+I just wanted to check out this month's Mcdonalds toys as simple as possible
 
 ## Useful commands
 
